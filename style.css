@@ -1,0 +1,105 @@
+/* Master styles */ 
+body { 
+    text-align: center; 
+    background: url(file:///Users/VinciBhar/Desktop/Blog-theme/foggy-forest-01.jpeg); 
+    background-size: cover;
+    margin: 0px; 
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}  
+ a, p, h1, h2, h3, h4, h5, h6 {
+     color: hsl(0, 89%, 45%);
+ }  
+ h1, h2, h3, h4, h5, h6 {
+     padding: 10px 20px 10px 20px;
+ }
+
+.container {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    max-width: 900px; 
+    margin: auto; 
+}
+
+/*Nav styles*/
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between; 
+    padding: 38px
+}
+
+.left-side {
+      display: flex;
+}
+ 
+.nav-wrapper > .left-side > div {
+            margin-right: 20px;
+            font-size: 0.9em;
+            text-transform: uppercase;
+} 
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent; 
+    transition: border-bottom 0.5s; 
+}
+
+.nav-link-wrapper a { 
+    color: #e02626; 
+    text-decoration: none; 
+    transition: color 0.5s;
+}  
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color:black; 
+} 
+ 
+    *{
+        padding: 0; 
+        margin: 0;
+    }
+    section {
+        padding: 20px;
+    }
+    main {
+        float: left;
+        width: 70%;  
+        border-left: 1px solid rgb(5, 0, 0); 
+        border-right: 1px solid rgb(5, 0, 0); 
+        border-top: 1px solid rgb(22, 7, 7)
+    }
+    main p {
+        font-size: 1.1rem;
+        line-height: 1.6rem; 
+        padding: 0px 20px 0px 20px;
+    }
+     aside {
+         float: right;
+         width: 25%
+     }  
+     aside p {
+         font-size: 1.1rem; 
+         line-height: 1.6rem; 
+         padding: 20px;
+     } 
+     aside ul {
+         padding: 0px 20px 0px 20px;
+     }
+
+    aside ul li {
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+        list-style: none;
+    } 
+    footer { 
+        display: flex; 
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        display: inline-block; 
+        width: 100%;
+    }  
